@@ -1,0 +1,13 @@
+{
+  "name": "cmjs", 
+  "description": "Just a new NodeJS CMS", 
+  "author": "Thiago Hara <thiagomassamihara@gmail.com>", 
+  "version": "1.2.3", 
+  "private": true, 
+  "dependencies": { 
+    "modulo-1": "1.0.0", 
+    "modulo-2": "~1.0.0", 
+    "modulo-3": ">=1.0.0"
+  }, 
+  "devDependencies": { "modulo-4": "*" }
+}
