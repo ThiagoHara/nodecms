@@ -14,7 +14,7 @@ Para instalá-lo em sua máquina faça os comandos a seguir:
 
 ``` bash
   git clone git@github.com:ThiagoHara/nodecms.git
-  cd livro-nodejs/projeto/ntalk
+  cd nodecms
   npm install
   npm start
 ```
