@@ -35,8 +35,9 @@ Email: <thiagomassamihara@gmail.com>
 
 ============================
 
+#pt-br
 
-#Sobre
+##Sobre
 Este é um projeto de estudo do nodejs implementado um cms 
 
 
