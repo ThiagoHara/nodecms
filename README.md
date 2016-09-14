@@ -17,8 +17,6 @@ To install follow the steps:
 ``` bash
   git clone git@github.com:ThiagoHara/nodecms.git
   cd nodecms
-  npm install express
-  npm install ejs
   npm install
   npm start
 ```
@@ -55,8 +53,6 @@ Para instalá-lo em sua máquina faça os comandos a seguir:
 ``` bash
   git clone git@github.com:ThiagoHara/nodecms.git
   cd nodecms
-  npm install express
-  npm install ejs
   npm install
   npm start
 ```
