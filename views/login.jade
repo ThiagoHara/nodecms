@@ -44,16 +44,16 @@ html
                                     p ©2016 All Rights Reserved. NodeCMS content manager. Privacy and Terms
                 div#register.animate.form.registration_form
                     section.login_content
-                        form
+                        form(method='post', action='/signup')
                             h1 Create Account
                             div
-                                input.form-control(type="text", placeholder="Username",required="")
+                                input.form-control(type="text", placeholder="Username",required="", name="username" )
                             div
-                                input.form-control(type="email",placeholder="Email", required="")
+                                input.form-control(type="email",placeholder="Email", required="", name="email")
                             div
-                                input.form-control(type="password",placeholder="Password",required="")
+                                input.form-control(type="password",placeholder="Password",required="", name="password" )
                             div
-                                a.btn.btn-default.submit(href="index.html") Submit
+                                input(type='submit', value='Submit')
                             div.clearfix
                             div.separator
                                 p.change_link Already a member?&nbsp;&nbsp;
@@ -65,3 +65,6 @@ html
                                         i.fa.fa-gears &nbsp;
                                         &nbsp;NodeCMS
                                     p ©2016 All Rights Reserved. NodeCMS content manager. Privacy and Terms
+
+
+                                    res.render('your page', {pageData: {name : ['name 1', 'name 2']}});

@@ -1,0 +1,32 @@
+doctype html
+html 
+    head
+        title= Dados
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8', charset="utff-8")
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')      
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        //bootstrap
+        link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')    
+        //Font Awesome
+        link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')   
+        //NProgress
+        link(rel='stylesheet', href='/stylesheets/nprogress.css')  
+        //Animate.css
+        link(rel='stylesheet', href='/stylesheets/animate.min.css')
+        //Custom Theme Style
+        link(rel='stylesheet', href='/stylesheets/custom.min.css')
+    body.login
+        div
+            a.hiddenanchor#signup
+            a.hiddenanchor#signin
+            div.login_wrapper
+                div.animate.form.login_form
+                    section.login_content
+                        form
+                            h1 Bem vindo
+                            div 
+                                input.form-control(type="text", value="#{params.username}", name="username")
+                            div 
+                                input.form-control(type="text", value = "#{params.email}", name="email")
+                            div 
+                                input.form-control(type="text", value = "#{params.password}", name = "password")
