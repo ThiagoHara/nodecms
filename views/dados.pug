@@ -24,9 +24,17 @@ html
                     section.login_content
                         form
                             h1 Bem vindo
-                            div 
-                                input.form-control(type="text", value="#{params.username}", name="username")
-                            div 
-                                input.form-control(type="text", value = "#{params.email}", name="email")
-                            div 
-                                input.form-control(type="text", value = "#{params.password}", name = "password")
+                            
+                        table.table
+                            thead
+                                
+                                th Username
+                                th Email
+                                th Senha
+                                
+                            tbody
+                                
+                                td #{params.username}
+                                td #{params.email}
+                                td #{params.password}
+    
