@@ -1,0 +1,43 @@
+doctype html
+html 
+    head
+        title= title
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8', charset="utff-8")
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')      
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        //bootstrap
+        link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')    
+        //Font Awesome
+        link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')   
+        //NProgress
+        link(rel='stylesheet', href='/stylesheets/nprogress.css')  
+        //Custom Theme Style
+        link(rel='stylesheet', href='/stylesheets/custom.min.css')
+    body.nav-md
+        div.container.body
+            div.main_container
+                div.col-md-12
+                    div.col-middle
+                        div.text-center.text.center
+                            h1.error-number= error.status                           
+                            p= message
+                              a(ref="#") &nbsp;Report this?                            
+                            div.mid_center
+                                h3 Search 
+                                form 
+                                    div.col-xs-12.form-group.pull-right.top_search
+                                        div.input-group 
+                                            input(type="text",class="form-control",placeholder="Search for...")
+                                            span.input-group-btn
+                                                button.btn.btn-default(type="button") Go!
+                        div.col-md-12
+                                pre #{error.stack}
+//jquery
+//script(src="../vendors/jquery/dist/jquery.min.js")
+//boostrap
+//script(src="../vendors/bootstrap/dist/js/bootstrap.min.js")
+//fastclick
+//script(src=".../vendors/fastclick/lib/fastclick.js")
+//NProgress 
+//script(src="../vendors/nprogress/nprogress.js")
+//script(src="../build/js/custom.min.js")
