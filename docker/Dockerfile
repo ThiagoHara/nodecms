@@ -25,7 +25,7 @@ RUN npm install
 #ENTRYPOINT ["/docker-entrypoint.sh"]
 
 # Expose port
-EXPOSE 8080
+EXPOSE 3000 
 
 # Run app
 CMD ["pm2-docker", "process.yml"]
