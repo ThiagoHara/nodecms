@@ -28,8 +28,11 @@ After open your browser at address: http://localhost:3000
 
 ## Docker
 To use docker with this project, follow the steps below on bash terminal: 
+
 1. On root folder of repository: `docker build -f docker/Dockerfile -t nodecms:develop`
+
 2. Run the docker image: `docker run -d -p 3000:3000 nodecms:develop`
+
 3. Test: On your browser open the url `http:\\127.0.0.1:3000`
 
 ## Autor
@@ -70,8 +73,11 @@ E depois acesse no seu navegador o endereço: http://localhost:3000
 
 ## Docker
 Para usar o docker com este projeto, siga os passos abaixo no seu terminal: 
+
 1. Na pasta raiz deste repositório crie uma imagem docker: `docker build -f docker/Dockerfile -t nodecms:develop`
+
 2. Inicialize a imagem criada: `docker run -d -p 3000:3000 nodecms:develop`
+
 3. Teste sua aplicação `http:\\127.0.0.1:3000`
 
 ## Autor
