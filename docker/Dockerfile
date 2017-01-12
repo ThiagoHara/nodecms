@@ -17,7 +17,7 @@ RUN mkdir -p /usr/src/app
 # Define working directory
 WORKDIR /usr/src/app
 
-COPY ../ /usr/src/app
+COPY ./ /usr/src/app
 
 RUN npm install
 
